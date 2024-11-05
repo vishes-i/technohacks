@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body {
+    margin: 0;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5385;
+    color: #333;
+    text-align: left;
+    background-color: #2196F3;
+}
+
+.mt-50{
+
+    margin-top: 50px;
+}
+
+.mb-50{
+
+    margin-bottom: 50px;
+}
+
+
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .1875rem;
+}
+
+.card-img-actions {
+    position: relative;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.card-img{
+
+    width: 350px;
+}
+
+.star{
+        color: red;
+}
+
+.bg-cart {
+    background-color:orange;
+    color:#fff;
+}
+
+.bg-cart:hover {
+    
+    color:#fff;
+}
+
+.bg-buy {
+    background-color:green;
+    color:#fff;
+    padding-right: 29px;
+}
+.bg-buy:hover {
+    
+    color:#fff;
+}
+
+a{
+
+    text-decoration: none !important;
+}
+
+</style>
+<link  rel="stylesheet" href="style6542.css"/>
+<body>
+    <DIV>
+    <H1 style="color: #333;">
+    <Marquee>
+    
+        E-CART ITEM
+    </H1>
+</Marquee>
+</DIV>
+   
+    <section class="product">
+        <div class="product__photo">
+            <div class="photo-container">
+                <div class="photo-main">
+                    <img src="C:\Users\adity\Downloads\61fDHkQ6MqL._SX679_.jpg" alt="laptop acer" width="600PX" height="360PX" style="margin-left: 60PX;">
+                </div>
+                <div class="photo-album">
+                    <ul>
+                        <li><img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/a49e3404-0e58-430f-984a-83a83aaa0955.__CR0,0,1200,1200_PT0_SX300_V1___.jpg" alt="laptop"></li>
+                        <li><img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/63dad2bc-74f2-4dd8-811a-7ce73b6d29e7.__CR0,0,1200,1200_PT0_SX300_V1___.jpg" alt=" right-laptop"></li>
+                        <li><img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/ad9697d9-2c9f-4319-870d-7e609c9303ce.__CR0,0,1200,1200_PT0_SX300_V1___.jpg" alt=" left-laptop"></li>
+                        <li><img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/74c31ffc-574c-4630-a195-55d6591a4832.__CR0,0,1200,1200_PT0_SX300_V1___.jpg" alt=" top -laptop"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="product__info">
+            <div class="title">
+                <h1>ACER ALPTOP</h1>
+                <span>COD: 45999</span>
+            </div>
+            <div class="price">
+                R$ <span>17.93</span>
+            </div>
+            <div class="variant">
+                <h3>SELECT A COLOR</h3>
+                <ul>
+                    <li><img src="https://m.media-amazon.com/images/I/41Bmui2T3TL._AC_.jpg" alt=""></li>
+                    <li><img src="https://m.media-amazon.com/images/I/415M08foEuL._AC_.jpg" alt=""></li>
+                    <li><img src="https://m.media-amazon.com/images/I/41Bmui2T3TL._AC_.jpg" alt=""></li>
+                    <li><img src="https://m.media-amazon.com/images/I/51-1CpzQjKL._AC_.jpg" alt=""></li>
+                </ul>
+            </div>
+            <div class="description">
+                <h3>ABOUT THIS ITEM</h3>
+                <ul>
+                    <li>Powerful Productivity: Latest 13th Generation Intel Core i3-1305U Processor delivers unmatched speed and intelligence, enabling impressive creating, productivity, and gaming experiences. With Turbo Boost Technology, get up to 4.5GHz for your high-demand applications. Connectivity Technology: Wi-Fi, Bluetooth, HDMI</li>
+                    <li>Visibly Stunning: Experience sharp details and crisp colors on the 15.6" Full HD display, 16:9 aspect ratio, ultra-slim design and narrow bezels.</li>
+                    <li>Internal Specifications: RAM - 8 GB of Dual-channel DDR4, 2 SODIMM sockets; Storage - 512 GB SSD NVMe solid-state drive storage (expandable up to 1TB) to store your files and media</li>
+                    <li>Ports: one Type-C port, two USB 2.0 Type-A port, and one USB 3.2 Type-A port.</li>
+                </ul>
+            </div>
+            <button class="buy--btn">ADD TO CART</button>
+        </div>
+    </section>
+    
+    <footer>
+    <P>VISHESHK.P@CART</P>
+    </footer>
+<H1 style="background-color: rgb(2, 67, 67); font-size: x-large; font-weight: bolder; text-align: center;">PRODUCT-ITEM</H1>
+<div class="container d-flex justify-content-center mt-50 mb-50" style="display: inline-block;">
+            
+    <div class="row">
+       <div class="col-md-4 mt-2">
+        
+            
+            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-img-actions">
+                                        
+                                            <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1562074043/234.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                          
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="card-body bg-light text-center">
+                                    <div class="mb-2">
+                                        <h6 class="font-weight-semibold mb-2">
+                                            <a href="#" class="text-default mb-2" data-abc="true">Toshiba Notebook with 500GB HDD & 8GB RAM</a>
+                                        </h6>
+
+                                        <a href="#" class="text-muted" data-abc="true">Laptops & Notebooks</a>
+                                    </div>
+
+                                    <h3 class="mb-0 font-weight-semibold">$250.99</h3>
+
+                                    <div>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                    </div>
+
+                                    <div class="text-muted mb-3">34 reviews</div>
+
+                                    <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                    
+                                </div>
+                            </div>
+     
+                         
+       </div> 
+
+
+       <div class="col-md-4 mt-2">
+        
+            
+            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-img-actions">
+                                        
+                                            <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1562074043/234.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                          
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="card-body bg-light text-center">
+                                    <div class="mb-2">
+                                        <h6 class="font-weight-semibold mb-2">
+                                            <a href="#" class="text-default mb-2" data-abc="true">Toshiba Notebook with 500GB HDD & 8GB RAM</a>
+                                        </h6>
+
+                                        <a href="#" class="text-muted" data-abc="true">Laptops & Notebooks</a>
+                                    </div>
+
+                                    <h3 class="mb-0 font-weight-semibold">$250.99</h3>
+
+                                    <div>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                    </div>
+
+                                    <div class="text-muted mb-3">34 reviews</div>
+
+                                    <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                    
+                                </div>
+                            </div>
+
+
+                        
+                         
+       </div> 
+
+       <div class="col-md-4 mt-2">
+        
+            
+            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-img-actions">
+                                        
+                                            <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1562074043/234.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                          
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="card-body bg-light text-center">
+                                    <div class="mb-2">
+                                        <h6 class="font-weight-semibold mb-2">
+                                            <a href="#" class="text-default mb-2" data-abc="true">Toshiba Notebook with 500GB HDD & 8GB RAM</a>
+                                        </h6>
+
+                                        <a href="#" class="text-muted" data-abc="true">Laptops & Notebooks</a>
+                                    </div>
+
+                                    <h3 class="mb-0 font-weight-semibold">$250.99</h3>
+
+                                    <div>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                    </div>
+
+                                    <div class="text-muted mb-3">34 reviews</div>
+
+                                    <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                    
+                                </div>
+                            </div>
+
+
+                        
+                         
+       </div> 
+
+
+       <div class="col-md-4 mt-2">
+        
+            
+            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-img-actions">
+                                        
+                                            <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1562074043/234.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                          
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="card-body bg-light text-center">
+                                    <div class="mb-2">
+                                        <h6 class="font-weight-semibold mb-2">
+                                            <a href="#" class="text-default mb-2" data-abc="true">Toshiba Notebook with 500GB HDD & 8GB RAM</a>
+                                        </h6>
+
+                                        <a href="#" class="text-muted" data-abc="true">Laptops & Notebooks</a>
+                                    </div>
+
+                                    <h3 class="mb-0 font-weight-semibold">$250.99</h3>
+
+                                    <div>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                    </div>
+
+                                    <div class="text-muted mb-3">34 reviews</div>
+
+                                    <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                    
+                                </div>
+                            </div>
+
+
+                        
+                         
+       </div> 
+
+
+       <div class="col-md-4 mt-2">
+        
+            
+            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-img-actions">
+                                        
+                                            <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1562074043/234.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                          
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="card-body bg-light text-center">
+                                    <div class="mb-2">
+                                        <h6 class="font-weight-semibold mb-2">
+                                            <a href="#" class="text-default mb-2" data-abc="true">Toshiba Notebook with 500GB HDD & 8GB RAM</a>
+                                        </h6>
+
+                                        <a href="#" class="text-muted" data-abc="true">Laptops & Notebooks</a>
+                                    </div>
+
+                                    <h3 class="mb-0 font-weight-semibold">$250.99</h3>
+
+                                    <div>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                    </div>
+
+                                    <div class="text-muted mb-3">34 reviews</div>
+
+                                    <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                    
+                                </div>
+                            </div>
+
+
+                        
+                         
+       </div> 
+
+
+       <div class="col-md-4 mt-2">
+        
+            
+            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-img-actions">
+                                        
+                                            <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1562074043/234.png" class="card-img img-fluid" width="96" height="350" alt="">
+                                          
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="card-body bg-light text-center">
+                                    <div class="mb-2">
+                                        <h6 class="font-weight-semibold mb-2">
+                                            <a href="#" class="text-default mb-2" data-abc="true">Toshiba Notebook with 500GB HDD & 8GB RAM</a>
+                                        </h6>
+
+                                        <a href="#" class="text-muted" data-abc="true">Laptops & Notebooks</a>
+                                    </div>
+
+                                    <h3 class="mb-0 font-weight-semibold">$250.99</h3>
+
+                                    <div>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                       <i class="fa fa-star star"></i>
+                                    </div>
+
+                                    <div class="text-muted mb-3">34 reviews</div>
+
+                                    <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                    
+                                </div>
+                            </div>                     
+       </div>
+
+    </div>
+</div>
+</body>
+</html>
+-----------------------------------------
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: grid;
+	grid-template-rows: 1fr;
+	font-family: "Raleway", sans-serif;
+	background-color: #01e37f;
+}
+
+h3 {
+	font-size: 0.7em;
+	letter-spacing: 1.2px;
+	color:  #a6a6a6;
+}
+
+img {
+			max-width: 100%;
+			filter: drop-shadow(1px 1px 3px  #a6a6a6);
+		}
+
+/* ----- Product Section ----- */
+.product {
+	display: grid;
+	grid-template-columns: 0.9fr 1fr;
+	margin: auto;
+	padding: 2.5em 0;
+	min-width: 600px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+/* ----- Photo Section ----- */
+.product__photo {
+	position: relative;
+}
+
+.photo-container {
+	position: absolute;
+	left: -2.5em;
+	display: grid;
+	grid-template-rows: 1fr;
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+	box-shadow: 4px 4px 25px -2px rgba(0, 0, 0, 0.3);
+}
+
+.photo-main {
+	border-radius: 6px 6px 0 0;
+	background-color: #9be010;
+	background: radial-gradient(#e5f89e, #96e001);
+
+	.controls {
+		display: flex;
+		justify-content: space-between;
+		padding: 0.8em;
+		color: #fff;
+
+		i {
+			cursor: pointer;
+		}
+	}
+
+	img {
+		position: absolute;
+		left: -3.5em;
+		top: 2em;
+		max-width: 110%;
+		filter: saturate(150%) contrast(120%) hue-rotate(10deg)
+			drop-shadow(1px 20px 10px rgba(0, 0, 0, 0.3));
+	}
+}
+
+.photo-album {
+	padding: 0.7em 1em;
+	border-radius: 0 0 6px 6px;
+	background-color: #fff;
+
+	ul {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	li {
+		float: left;
+		width: 55px;
+		height: 55px;
+		padding: 7px;
+		border: 1px solid  #a6a6a6;
+		border-radius: 3px;
+	}
+}
+
+/* ----- Informations Section ----- */
+.product__info {
+	padding: 0.8em 0;
+}
+
+.title {
+	h1 {
+		margin-bottom: 0.1em;
+		color: #4c4c4c;
+		font-size: 1.5em;
+		font-weight: 900;
+	}
+
+	span {
+		font-size: 0.7em;
+		color:  #a6a6a6;
+	}
+}
+
+.price {
+	margin: 1.5em 0;
+	color: #ff3f40;
+	font-size: 1.2em;
+
+	span {
+		padding-left: 0.15em;
+		font-size: 2.9em;
+	}
+}
+
+.variant {
+	overflow: auto;
+
+	h3 {
+		margin-bottom: 1.1em;
+	}
+
+	li {
+		float: left;
+		width: 35px;
+		height: 35px;
+		padding: 3px;
+		border: 1px solid transparent;
+		border-radius: 3px;
+		cursor: pointer;
+
+		&:first-child,
+		&:hover {
+			border: 1px solid #a6a6a6;
+		}
+	}
+
+	li:not(:first-child) {
+		margin-left: 0.1em;
+	}
+}
+
+.description {
+	clear: left;
+	margin: 2em 0;
+
+	h3 {
+		margin-bottom: 1em;
+	}
+
+	ul {
+		font-size: 0.8em;
+		list-style: disc;
+		margin-left: 1em;
+	}
+
+	li {
+		text-indent: -0.6em;
+		margin-bottom: 0.5em;
+	}
+}
+
+.buy--btn {
+	padding: 1.5em 3.1em;
+	border: none;
+	border-radius: 7px;
+	font-size: 0.8em;
+	font-weight: 700;
+	letter-spacing: 1.3px;
+	color: #fff;
+	background-color: #ff3f40;
+	box-shadow: 2px 2px 25px -7px #4c4c4c;
+	cursor: pointer;
+
+	&:active {
+		transform: scale(0.97);
+	}
+}
+
+footer {
+	padding: 1em;
+	text-align: center;
+	color: #fff;
+
+	a {
+		color:#4c4c4c;
+
+		&:hover {
+			color: #ff3f40;
+		}
+	}
+}
